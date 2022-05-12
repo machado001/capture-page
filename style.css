@@ -1,0 +1,147 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.top_part {
+    background-image: url(./imagens/Sasageyo.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 70vh;
+    /* padding-top: 30px; */
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-div {
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+    clear: both;
+
+
+}
+
+.inputs-all {
+    float: inherit;
+    padding: 10px 0;
+    width: 80%;
+    margin: 5px;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px;
+}
+
+#inputs {
+    /* background-color: blueviolet; */
+    width: 65%;
+    /* width: 300px; */
+    position: absolute;
+    left: 15%;
+    border-radius: 1em;
+    top: 45%;
+    /* background-color: aliceblue; */
+
+
+}
+
+
+
+h1 {
+    font-size: 18px;
+    
+    color: aqua;
+    padding: 20px;
+}
+
+.color-white {
+    color: aliceblue;
+}
+
+
+
+img#erwin {
+    width: 40%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(249, 255, 107, 0.37);
+    box-shadow: 0px 0px 11px 1px rgba(249, 255, 107, 0.37);
+}
+
+#about {
+    padding: 10px;
+
+    width: 70%;
+    background-color: rgba(240, 248, 255, 0.267);
+    border-radius: 10px;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+
+div#texts {
+    transform: (0,100%);
+}
+
+
+
+@media screen and (min-width: 800px) {
+    #inputs {
+        width: 40%;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* div#about {
+        padding: 10px;
+        width: 600px;
+        background-color: rgba(240, 248, 255, 0.267);
+        border-radius: 10px;
+        margin: 0 auto;
+        clear: both;
+        margin-bottom: 10px;
+    } */
+
+    img#erwin {
+        float: left;
+        width: 25%;
+        border-radius: 50%;
+        margin-right: 20px;
+
+    }
+
+    img~p {
+        text-align:left;
+        margin: 10px;
+    }
+
+}
